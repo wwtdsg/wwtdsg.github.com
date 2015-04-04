@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  Fuck the world otherwise fucked by the world.
-tagline: 
+title:  什么玩意儿啊
+tagline: 话说这到底是什么玩意儿啊！
 ---
 {% include JB/setup %}
 
