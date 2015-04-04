@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test"
+title: "hello world"
 description: "试一下该怎么推送博客！"
 category: 
 tags: []
