@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Jottings
-titile: 关于从0开始搭建博客的QA
+title: 关于从0开始搭建博客的QA
 tagline: by wt
 tags: [blog, jottings]
 ---
