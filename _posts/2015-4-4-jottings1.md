@@ -1,9 +1,9 @@
 ---
 layout: post
-category: android
-title: 强化你的Terminal IDE——在android平板/手机上编写C/C++
-tagline: by Snail
-tags: [android, c++, c]
+category: Jottings
+title: 资质愚笨，如何是好
+tagline: by wwtdsg
+tags: [jottings]
 ---
 
 我等资质愚笨，有药可救否？
