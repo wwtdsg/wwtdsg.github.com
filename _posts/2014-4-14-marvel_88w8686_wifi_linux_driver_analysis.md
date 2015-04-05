@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Embedded
+category: Jottings
 title: Marvel 88w8686 Linux驱动分析
 tagline: by Snail
 tags: [wifi, linux, driver]
