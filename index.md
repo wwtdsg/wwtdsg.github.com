@@ -29,3 +29,12 @@ tagline: 丑的人才能写出丑的博客。
 
 
 这个博客还真是丑啊……
+<section>
+<h4>About me</h4>
+<div>
+ 一个无所事事混吃等毕业的烟酒僧，就读于浙大光电系，半路出家xjb敲代码。
+ <br/>
+ <br/>
+ 联系博主：wwtdsg@gmail.com
+ </div>
+ </section>
