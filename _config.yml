@@ -9,26 +9,25 @@ markdown: kramdown
 
 # The title and tagline is showed on homepage
 #
-title :  Simpleyyt 
-tagline: Yitao's Blog
+title :  滔神坚决不吃面 
+tagline: WTao's Blog
 
 # Information about author
 #
 author :
-  name : Yitao Yao
+  name : 王滔
   
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:simpleyyt@gmail.com
-  Github : https://github.com/Simpleyyt
-  WeiBo : http://www.weibo.com/u/1836017133
-  Google+ : https://plus.google.com/103860633659538888207?rel=author
+  e-mail : mailto:wwtdsg@gmail.com
+  Github : https://github.com/wwtdsg
+  WeiBo : http://www.weibo.com/u/2831498195
   
 # Links showed on the footer
 #
 links :
-  Yitao's Blog : http://simpleyyt.github.io/
+  Wt's Blog : http://wwtdsg.github.io/
 
 # The search engine. Only support google custom search engine.
 #
@@ -127,9 +126,9 @@ JB :
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : simpleyyt
+      short_name : wwtdsg
     disqus :
-      short_name : simpleyyt
+      short_name : wwtdsg
     livefyre :
       site_id : 123
     intensedebate :
