@@ -5,9 +5,14 @@ title: 关于从0开始搭建博客的QA
 tagline: by wt
 tags: [blog, jottings]
 ---
-jekyll是一个非常强大的静态网页生成工具，可以把markdown等模板语言直接转换成html。同时github内在支持jekyll,允许用户直接把一个jekyll项目发布到github，这就使得我们可以用git管理自己的博客，永远不会丢失。只要用户提交，gihub会自动调用jekyll，把md转换成html，所以我们可以直接用md标记语言来进行博客撰写。参看[使用jekyll在Github上架设Blog的工作原理是怎样的？](http://www.zhihu.com/question/20096350)
+jekyll是一个非常强大的静态网页生成工具，可以把markdown等模板语言直接转换成html。
+
+同时github内在支持jekyll,允许用户直接把一个jekyll项目发布到github，这就使得我们可以用git管理自己的博客，永远不会丢失。
 
 <!--more-->
+
+那么，使用github建立个人博客，就是一件非常炫酷装逼的事情了。只要用户提交，gihub会自动调用jekyll，把md转换成html，所以我们可以直接用md标记语言来进行博客撰写。参看[使用jekyll在Github上架设Blog的工作原理是怎样的](http://www.zhihu.com/question/20096350)
+
 
 虽然jekyll很强大，可是对于0网络基础的人来说，其实并不容易。再加上我这种半道出家只有半吊子水平，心里面本身就怀着十足的恐惧，搭建博客就更非易事了。
 

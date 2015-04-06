@@ -10,7 +10,7 @@ markdown: kramdown
 # The title and tagline is showed on homepage
 #
 title :  王滔的Blog 
-tagline:  一个半吊子程序员的自白
+tagline:  一个半吊子的程序员
 
 # Information about author
 #
@@ -37,7 +37,7 @@ search :
   # Your Google custom search engine ID
   #
   gcse :
-    cx : 004255214185073801838:_icnlls8kds
+      cx : 000398114278313691887:dzv29_-wujy
   
 # The way of excerpt. There are two options: "teaser" and "truncate_words".
 # "teaser" option: look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
