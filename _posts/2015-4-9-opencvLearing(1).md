@@ -4,7 +4,7 @@ category: c++
 title: Visual C++ OpenCV使用笔记（1）
 tagline: by wt
 tags: [c++, OpenCV]
-
+---
 ## Visual C++ OpenCV使用笔记（1） ##
 
 ### 1) 最简单的OpenCV应用程序示例：
