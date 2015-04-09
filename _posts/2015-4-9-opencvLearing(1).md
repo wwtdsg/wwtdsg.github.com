@@ -5,8 +5,8 @@ title: Visual C++ OpenCV使用笔记（1）
 tagline: by wt
 tags: [c++, OpenCV]
 ---
-## Visual C++ OpenCV使用笔记（1） ##
-
+从四月一号开始，我在杭州拓峰科技参加实习，部门是机器人视觉，顾名思义，是做机器视觉的，主要编程语言是c++和c#。因此，我以前学过的python和java就没了用武之地，而且我还要开始学习我最不情愿学习的语言：C++。每思及此，蛋莫疼焉。除此之外，我还要接触OpenCV，这个强大而闻名的函数库。俗话说，既来之则安之，那便好好学一学怎么用OpenCV做视觉吧，顺便把C++也好好学一学，滔神学编程，多多益善。
+<!--more-->
 ### 1) 最简单的OpenCV应用程序示例：
 	#include<iostream>
 	#include<opencv2/highgui/highgui.hpp>
