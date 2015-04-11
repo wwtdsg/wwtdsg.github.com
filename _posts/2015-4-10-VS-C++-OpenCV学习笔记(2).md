@@ -1,7 +1,7 @@
 ---
 layout: post
 category: c++
-title: VS C++ OopenCV使用笔记（2）
+title: VS C++ OpenCV使用笔记（2）
 tagline: by wt
 tags: [c++, OpenCV]
 ---
