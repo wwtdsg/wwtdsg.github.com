@@ -2,7 +2,7 @@
 layout: post
 category: Jottings
 title: 资质愚笨，如何是好
-tagline: by wwtdsg
+tagline: by wt
 tags: [jottings]
 ---
 
