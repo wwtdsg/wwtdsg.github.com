@@ -1,0 +1,47 @@
+###向量容器vector
+
+vector是C++标准模板库（STL）中最常见的一种容器，其数据安排与操作方式和数组类似，但vector是动态的，随着元素的加入，根据需要自动扩充空间容纳新的元素，也属于顺序容器，用于容纳不定长线性序列，提供对序列的直接访问。当元素存储在容器中时，它们可以按照索引直接访问。索引指明了元素相对于容器的位置。
+
+###### (1) 向量容器中的构造和析构函数
+
+容器类库的向量容器包含4种构造函数：
+
+	vector();//默认构造函数，创建大小为零的向量容器
+	vector(size_type n,const T&value = T();//初始化了大小为n的向量，
+	//第二个参数是每个对象的初始值，默认为T()构造的对象
+	vector(const vector&x);//拷贝构造函数，用常数向量来初始化。
+	vector(const_iterator first, const_iterator last);//从支持常数迭代器
+	//const_iterator的容器中选取一部分来建立一个新的向量。
+
+###### (2) 使用向量容器
+
+1) 有4个可以用来返回向量容器信息的成员函数：
+
+	size_type size() const;//记录元素个数
+	size_type max_size() const;//返回最多可容纳元素个数
+	size_type capacity() const;//不必再次分配内存时最多可容纳的元素数量
+	bool empty() const;
+
+2) 向vector中放置元素
+
+	void push_back(const T& x);//将元素添加到向量尾部，内存不够时自动申请内存
+	iterator insert(iterator it, const T& x = T();//把元素复制到it之前
+	void insert(iterator it,size_type n,const T& x);//把元素在it之前复制n次
+	void insert(iterator it, const_iterator first, const_iterator last);
+	//把位于范围[first, last]之间的元素复制到it之前
+	void swap(vector x);//交换当前向量容器和向量x容器中的元素
+
+3) 删除向量容器中的内容
+
+	void pop_back();//删除最后一个元素
+	iterator erase(iterator it);//删除it指向的元素
+	iterator erase(iterator first, iterator last);//删除[first, last]范围内所有元素
+	void clear();//清除整个向量容器，恢复到无元素状态，但保留缓冲区
+
+4) 访问向量中的成员
+	
+使用"[ ]"运算符可直接访问容器中的元素。`front()`可访问vector中的第一个元素。
+
+###list: [双向循环链表](http://blog.csdn.net/whz_zb/article/details/6831817)，又叫列表容器
+
+在存储复杂类型和大量元素的情况下，list比vector更有优势。
