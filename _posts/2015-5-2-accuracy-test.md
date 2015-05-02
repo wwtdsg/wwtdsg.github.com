@@ -43,7 +43,7 @@ tags: [Accuracy Test, jottings]
 ![image](https://raw.githubusercontent.com/wwtdsg/My-code-in-c-/master/picture/test2.jpg)
 
 ###Test3：测试长度100mm，测量值为100.88mm，误差 < 1mm。
-![image](https://raw.githubusercontent.com/wwtdsg/My-code-in-c-/master/test3.jpg)
+![image](https://raw.githubusercontent.com/wwtdsg/My-code-in-c-/master/picture/test3.jpg)
 
 由于测量方法采用手动选点，所以测量精度受人为因素影响较大。在实际结构光三维重构过程中，结构光中心线提取的精度也对重构精度具有很大影响。
 
