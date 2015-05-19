@@ -10,7 +10,7 @@ markdown: kramdown
 # The title and tagline is showed on homepage
 #
 title :  滔神为什么不吃面
-tagline:  今夜我不关心人类，我只想你
+tagline:  知道你在牧羊，不知道你在那座山上
 
 # Information about author
 #
@@ -20,7 +20,7 @@ author :
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:wwtdsg@gmail.com
+  E-mail : mailto:wwtdsg@gmail.com
   Github : https://github.com/wwtdsg
   WeiBo : http://www.weibo.com/u/2831498195
   School: BIT->ZJU
