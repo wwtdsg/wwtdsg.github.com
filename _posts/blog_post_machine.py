@@ -16,7 +16,7 @@ class DoubanSpider():
         self.html = response.read()
 
     def url_get(self):
-        pat = re.compile(r'a href="http://book\.douban\.com/subject/[0-9]+.+?"')
+        pat = re.compile(r'a href="http://book\.douban\.com/subject/[0-9]+?/')
         self.sub_url = re.findall(pat, self.html)
 
 
@@ -103,20 +103,24 @@ class GitPush():
 
 
 def main():
-    s = DoubanSpider("http://book.douban.com")
-    s.page_get()
-    s.url_get()
-    n = 1
-    for url in s.sub_url:
-        url = re.sub('a href="', '', url)
-        url.strip('"')
-        blog = BlogCreate(url, n)
-        n += 1
-        if blog.check_repeat():
-            continue
-        if blog.save(n):
-            GitPush(blog)
-            break
+    page = 1
+    while page:
+        s = DoubanSpider("http://book.douban.com/series/1571?page=%d" % page)
+        s.page_get()
+        s.url_get()
+        n = 1
+        for url in s.sub_url:
+            url = re.sub('a href="', '', url)
+            blog = BlogCreate(url, n)
+            n += 1
+            if blog.check_repeat():
+                continue
+            if blog.save(n):
+                try:
+                    GitPush(blog)
+                    exit(1)
+                except:
+                    continue
 
 if __name__ == "__main__":
     main()
