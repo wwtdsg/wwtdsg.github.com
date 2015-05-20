@@ -104,6 +104,7 @@ class GitPush():
 
 def main():
     page = 1
+    flag = 0
     while page:
         s = DoubanSpider("http://book.douban.com/series/1571?page=%d" % page)
         s.page_get()
@@ -118,9 +119,12 @@ def main():
             if blog.save(n):
                 try:
                     GitPush(blog)
+                    flag = 1
                     exit(1)
                 except:
                     continue
+        if flag:
+            break
 
 if __name__ == "__main__":
     main()
