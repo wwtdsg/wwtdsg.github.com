@@ -44,6 +44,8 @@ class Page_parse():
         pat = re.compile(r'<p>(.+)</p>')
         m = re.findall(pat, self.html)
         book_intro = ''
+        for mess in m:
+            print mess.decode('utf-8')
         # intro = m.group(1)
         if len(m) is 3:
             book_intro = m[0]
@@ -118,7 +120,7 @@ def main():
                 continue
             if blog.save(n):
                 try:
-                    GitPush(blog)
+                    #  GitPush(blog)
                     flag = 1
                     exit(1)
                 except:
